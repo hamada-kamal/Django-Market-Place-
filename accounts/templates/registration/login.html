@@ -1,0 +1,41 @@
+{% extends "base_generic.html" %}
+{% load crispy_forms_tags %}
+{% load i18n %}
+{% block content %}
+<div class="container">
+  <div class="row body-row">
+    {% if next %}
+      {% if user.is_authenticated %}
+        <p>{% trans "Your account doesn't have access to this page. To proceed, please login with an account that has access" %}</p>
+      {% else %}
+        <p>{% trans "login Required" %}</p>
+        
+      {% endif %}
+    {% endif %}
+    
+  </div>
+  <div class="row body-row">
+    {% if LANGUAGE_CODE == 'ar' %}
+    <form style="text-align: right;" method="POST" action="{% url 'login' %}">
+    {% else %}
+    <form method="POST" action="{% url 'login' %}">
+    {% endif %}
+      {% csrf_token %}
+      {{form|crispy}}
+      <div class="form-check mb-4">
+      <input class="form-check-input" type="checkbox" value="" onclick="showPassword()">
+      <label class="form-check-label pr-3">
+        {% trans "Show Password" %}
+      </label>
+     </div>
+      <input class="form_btn form-control" type="submit" value="{% trans 'Login' %}" />
+      <input type="hidden" name="next" value="{{ next }}" />
+      <a class="nav-link " href="{% url 'accounts:signup' %}">{% trans "create new account" %}</a>
+      <a class="nav-link " href="{% url 'accounts:reset_password' %}">{% trans "forget password?" %}</a>
+
+    </form>
+  </div>
+</div>
+
+
+{% endblock %}

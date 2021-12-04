@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+{% include "parts/cart.html" %}
+
+<div class="container">
+	<div class="row">
+		{% if LANGUAGE_CODE == 'ar' %}
+		<div style="text-align: right;"  class="card settings-card flex-column">
+		{% else %}
+		<div style="text-align: left;" class="card settings-card flex-column">
+		{% endif %}
+			<a class="card-property" href="{% url 'password_change' %}">{% trans "change password" %}</a>
+			<a class="card-property" href="{% url 'accounts:profile_edit' %}">{% trans "update profile information" %}</a>
+		</div>
+		
+	</div>
+
+
+</div>
+{% endblock %}

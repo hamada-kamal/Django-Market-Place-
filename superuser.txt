@@ -1,0 +1,3 @@
+user:marketadmin
+pass:fairo5500
+email:onfire

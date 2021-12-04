@@ -1,0 +1,4 @@
+{% load static %}
+<a class="cart-shape-link" href="{% url 'products:cart' %}"><img class="cart-img" src="{% static 'img/cart.png' %}" alt=""></i>
+    <p id="cart-total">{{cartItems}}</p>
+</a>

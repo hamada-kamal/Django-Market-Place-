@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% load i18n %}
+
+{% block content %}
+{% include "parts/cart.html" %}
+<div class="container">
+  <div class="row body-row">
+    {% if LANGUAGE_CODE == 'ar' %}
+    <form style="text-align: right;" method="POST" enctype="multipart/form-data">
+    {% else %}
+    <form method="POST" enctype="multipart/form-data">
+    {% endif %}
+      
+        {% csrf_token %}        
+        {% if profile.image %}
+        <img style="width: 200px;" src="{{ profile_form.instance.image.url }}"/>
+        {% else %}
+        <img style="width: 200px;" src="{% static 'img/default.png' %}"/>
+        {% endif %}        
+        {{profile_form|crispy}} 
+        {{customer_form|crispy}}
+        {{userform|crispy}}
+        
+        <input class="form_btn form-control" type="submit" value="{% trans 'Save' %}">
+        <!-- <p><a href="{% url 'password_change' %}">Change password</a> <a style="float: right;color:#ff0000" href="{% url 'accounts:profile' %}">Cancel</a></p> -->
+        
+      </form>
+  </div>
+</div>
+
+{% endblock %}

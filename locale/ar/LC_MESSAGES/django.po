@@ -1,0 +1,430 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-14 00:09+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\accounts\forms.py:18
+msgid "first_name"
+msgstr "الاسم الاول"
+
+#: .\accounts\forms.py:18
+msgid "last_name"
+msgstr "الاسم الاخير"
+
+#: .\accounts\forms.py:18
+msgid "email"
+msgstr "البريد الالكترونى"
+
+#: .\accounts\forms.py:18
+msgid "phone"
+msgstr "التليفون المحمول"
+
+#: .\accounts\models.py:13
+msgid "user"
+msgstr "المستخدم"
+
+#: .\accounts\models.py:14 .\accounts\models.py:15
+msgid "image"
+msgstr "الصوره"
+
+#: .\accounts\models.py:17 .\accounts\templates\profile.html:107
+#: .\templates\base.html:229 .\templates\base_generic.html:200
+#: .\templates\pages\checkout.html:44
+msgid "Address"
+msgstr "العنوان"
+
+#: .\accounts\models.py:19
+msgid "join date"
+msgstr "تاريخ الانضمام"
+
+#: .\accounts\models.py:29 .\templates\base.html:115
+#: .\templates\base_generic.html:93
+msgid "Profile"
+msgstr "الملف الشخصى"
+
+#: .\accounts\models.py:30
+msgid "Profiles"
+msgstr "الملف الشخصى"
+
+#: .\accounts\templates\profile.html:43
+msgid "About"
+msgstr "عني"
+
+#: .\accounts\templates\profile.html:52
+#, fuzzy
+#| msgid "Profile"
+msgid "Edit Profile"
+msgstr "الملف الشخصى"
+
+#: .\accounts\templates\profile.html:58
+msgid "Links"
+msgstr "روابط سريعه"
+
+#: .\accounts\templates\profile.html:59 .\templates\base.html:116
+#: .\templates\base_generic.html:94
+msgid "Wish List"
+msgstr "العناصر المفضلة"
+
+#: .\accounts\templates\profile.html:83 .\products\models.py:34
+#: .\templates\pages\checkout.html:19
+msgid "Name"
+msgstr "الاسم"
+
+#: .\accounts\templates\profile.html:91 .\products\models.py:17
+#: .\templates\base.html:236 .\templates\base_generic.html:207
+#: .\templates\pages\checkout.html:32
+msgid "Email"
+msgstr "البريد الالكترونى"
+
+#: .\accounts\templates\profile.html:99
+msgid "mobile"
+msgstr "التليفون المحمول"
+
+#: .\accounts\templates\profile_edit.html:26
+msgid "Save"
+msgstr "حفظ"
+
+#: .\accounts\templates\registration\login.html:9
+msgid ""
+"Your account doesn't have access to this page. To proceed, please login with "
+"an account that has access"
+msgstr ""
+"حسابك ليس لديه حق الوصول إلى هذه الصفحة. للمتابعة ، يرجى تسجيل الدخول "
+"باستخدام حساب له حق الوصول"
+
+#: .\accounts\templates\registration\login.html:11
+msgid "login Required"
+msgstr "تسجيل الدخول مطلوب"
+
+#: .\accounts\templates\registration\login.html:28
+#: .\accounts\templates\registration\password_reset_confirm.html:18
+#: .\accounts\templates\registration\signup.html:21
+msgid "Show Password"
+msgstr "إظهار كلمة المرور"
+
+#: .\accounts\templates\registration\login.html:31 .\templates\base.html:129
+#: .\templates\base_generic.html:108
+msgid "Login"
+msgstr "دخول"
+
+#: .\accounts\templates\registration\login.html:33
+msgid "create new account"
+msgstr "انشاء حساب جديد"
+
+#: .\accounts\templates\registration\login.html:34
+msgid "forget password?"
+msgstr "نسيت كلمة السر؟"
+
+#: .\accounts\templates\registration\password_reset_complete.html:7
+msgid "The password has been changed!"
+msgstr "تم تغيير كلمة السر!"
+
+#: .\accounts\templates\registration\password_reset_complete.html:12
+msgid "log in again?"
+msgstr "اعاده تسجيل الدخول"
+
+#: .\accounts\templates\registration\password_reset_confirm.html:21
+msgid "Change my password"
+msgstr "تغيير كلمة المرور الخاصة بي"
+
+#: .\accounts\templates\registration\password_reset_confirm.html:24
+msgid "Password reset failed"
+msgstr "فشل إعادة تعيين كلمة المرور"
+
+#: .\accounts\templates\registration\password_reset_confirm.html:25
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"رابط إعادة تعيين كلمة المرور غير صالح ، ربما لأنه تم استخدامه بالفعل. يرجى "
+"طلب إعادة تعيين كلمة المرور الجديدة."
+
+#: .\accounts\templates\registration\password_reset_done.html:11
+msgid ""
+"We've emailed you instructions for setting your password. If they haven't "
+"arrived in a few minutes, check your spam folder."
+msgstr ""
+"لقد أرسلنا إليك عبر البريد الإلكتروني تعليمات حول تعيين كلمة المرور الخاصة "
+"بك. إذا لم يصلوا خلال بضع دقائق ، فتحقق من مجلد الرسائل غير المرغوب فيها."
+
+#: .\accounts\templates\registration\password_reset_form.html:17
+msgid "Reset Password"
+msgstr "إعادة تعيين كلمة المرور"
+
+#: .\accounts\templates\registration\signup.html:14
+msgid "Signup"
+msgstr "إنشاء حساب جديد"
+
+#: .\accounts\templates\registration\signup.html:24
+msgid "Sign up"
+msgstr "حساب جديد"
+
+#: .\accounts\templates\settings.html:10
+msgid "change password"
+msgstr "تغيير كلمة المرور"
+
+#: .\accounts\templates\settings.html:11
+msgid "update profile information"
+msgstr "تحديث معلومات الملف الشخصى"
+
+#: .\products\models.py:15
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: .\products\models.py:16
+msgid "Full Name"
+msgstr "الاسم بالكامل"
+
+#: .\products\models.py:18 .\templates\base.html:234
+#: .\templates\base_generic.html:205 .\templates\pages\checkout.html:26
+msgid "Mobile"
+msgstr "التليفون المحمول"
+
+#: .\products\models.py:49
+msgid "Product Name"
+msgstr "اسم المنتج"
+
+#: .\products\models.py:50
+msgid "Change Image"
+msgstr "تغيير الصوره"
+
+#: .\products\models.py:51 .\templates\pages\cart_page.html:19
+#: .\templates\pages\details.html:59
+msgid "Price"
+msgstr "السعر"
+
+#: .\products\models.py:52
+msgid "category"
+msgstr "الفئة"
+
+#: .\products\models.py:54
+msgid "Like"
+msgstr "إعجاب"
+
+#: .\products\models.py:55 .\templates\pages\details.html:47
+msgid "Description"
+msgstr "الوصف"
+
+#: .\products\models.py:92
+msgid "Customer"
+msgstr "المشترى"
+
+#: .\products\models.py:93
+msgid "Order Date"
+msgstr "تاريخ الطلب"
+
+#: .\products\models.py:94
+msgid "Complete"
+msgstr "جاهز للشحن"
+
+#: .\products\models.py:95
+msgid "Transaction Id"
+msgstr "رقم العملية"
+
+#: .\templates\base.html:39 .\templates\base_generic.html:32
+msgid "HOME"
+msgstr "الرئيسية"
+
+#: .\templates\base.html:44 .\templates\base_generic.html:37
+msgid "CATEGORIES"
+msgstr "التصنيفات"
+
+#: .\templates\base.html:57 .\templates\base_generic.html:50
+msgid "CONTACT US"
+msgstr "اتصل بنا"
+
+#: .\templates\base.html:82 .\templates\base.html:100
+#: .\templates\base_generic.html:78
+msgid "Search"
+msgstr "ابحث"
+
+#: .\templates\base.html:117 .\templates\base_generic.html:95
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: .\templates\base.html:119 .\templates\base_generic.html:98
+msgid "Log out"
+msgstr "خروج"
+
+#: .\templates\base.html:180 .\templates\base_generic.html:151
+msgid "Services"
+msgstr "الخدمات"
+
+#: .\templates\base.html:190 .\templates\base_generic.html:161
+msgid "Social Media"
+msgstr "مواقع تواصل اجتماعى"
+
+#: .\templates\base.html:220 .\templates\base_generic.html:191
+msgid "Quick Links"
+msgstr "روابط سريعه"
+
+#: .\templates\pages\cart_page.html:18
+msgid "Product"
+msgstr "المنتج"
+
+#: .\templates\pages\cart_page.html:20
+msgid "Quantity"
+msgstr "الكمية"
+
+#: .\templates\pages\cart_page.html:21
+msgid "total"
+msgstr "المجموع الكلى"
+
+#: .\templates\pages\cart_page.html:40 .\templates\pages\cart_page.html:78
+#: .\templates\pages\checkout.html:94 .\templates\pages\checkout.html:100
+#: .\templates\pages\details.html:34 .\templates\pages\favorit.html:40
+msgid "Eg"
+msgstr "ج.م"
+
+#: .\templates\pages\cart_page.html:74
+msgid "Cart Items"
+msgstr "عناصر السلة"
+
+#: .\templates\pages\cart_page.html:77 .\templates\pages\checkout.html:100
+msgid "Total"
+msgstr "المجموع الكلى"
+
+#: .\templates\pages\cart_page.html:81
+msgid "Process To Check"
+msgstr "إجراءات الشراء"
+
+#: .\templates\pages\cart_page.html:92
+msgid "Your Cart is Empty"
+msgstr "السلة فارغه"
+
+#: .\templates\pages\cart_page.html:93
+msgid "Add something to make me happy"
+msgstr "أضف شيئا لتجعلني سعيدا"
+
+#: .\templates\pages\cart_page.html:93 .\templates\pages\favorit.html:67
+msgid "continue shopping"
+msgstr "مواصلة التسوق"
+
+#: .\templates\pages\checkout.html:14
+msgid "Billing Address"
+msgstr "عنوان وصول الفواتير"
+
+#: .\templates\pages\checkout.html:40
+msgid "Shipping Information"
+msgstr "معلومات الشحن"
+
+#: .\templates\pages\checkout.html:52
+msgid "City"
+msgstr "المدينة"
+
+#: .\templates\pages\checkout.html:57
+msgid "state"
+msgstr "الإقليم"
+
+#: .\templates\pages\checkout.html:62
+msgid "Zip code"
+msgstr "الرمز البريدي"
+
+#: .\templates\pages\checkout.html:69
+msgid "Continue to Checkout"
+msgstr "الاستمرار في الدفع"
+
+#: .\templates\pages\checkout.html:74
+msgid "Payment"
+msgstr "طريقة الدفع"
+
+#: .\templates\pages\checkout.html:88
+msgid "Order Summary"
+msgstr "ملخص الطلب"
+
+#: .\templates\pages\checkout.html:99
+msgid "Items"
+msgstr "المنتجات"
+
+#: .\templates\pages\contact.html:8
+msgid "Contact us"
+msgstr "اتصل بنا"
+
+#: .\templates\pages\contact.html:19
+msgid "Subject"
+msgstr "الموضوع"
+
+#: .\templates\pages\contact.html:20
+msgid "Enter subject"
+msgstr "ادخل اسم الموضوع"
+
+#: .\templates\pages\contact.html:27
+#, fuzzy
+#| msgid "Address"
+msgid "Email address"
+msgstr "العنوان"
+
+#: .\templates\pages\contact.html:28
+msgid "Enter email"
+msgstr "ادخل البريد الالكترونى"
+
+#: .\templates\pages\contact.html:29
+msgid "We'll never share your email with anyone else."
+msgstr "لن نشارك بريدك الإلكتروني مع أي شخص آخر"
+
+#: .\templates\pages\contact.html:32
+msgid "Message"
+msgstr "الرساله"
+
+#: .\templates\pages\contact.html:33
+msgid "Leave Your Message"
+msgstr "اترك رسالتك"
+
+#: .\templates\pages\contact.html:36
+msgid "Submit"
+msgstr "إرسال"
+
+#: .\templates\pages\contact.html:52
+msgid "Wahtsapp"
+msgstr "واتساب"
+
+#: .\templates\pages\details.html:35
+msgid "Your Rate"
+msgstr "اضف تقييمك"
+
+#: .\templates\pages\details.html:40
+msgid "Remove from wish list"
+msgstr "إزالة من قائمة الرغبات"
+
+#: .\templates\pages\details.html:42
+msgid "Add to wish list"
+msgstr "أضف إلى قائمة الرغبات"
+
+#: .\templates\pages\details.html:81 .\templates\pages\index.html:51
+msgid "Add to cart"
+msgstr "أضف إلى السلة"
+
+#: .\templates\pages\details.html:82 .\templates\pages\index.html:52
+msgid "Added to cart"
+msgstr "تمت الإضافة"
+
+#: .\templates\pages\favorit.html:11
+msgid "Your Favourite Products"
+msgstr "المنتجات المفضلة لديك"
+
+#: .\templates\pages\favorit.html:66
+msgid "Empty Wish List"
+msgstr "قائمة الرغبات فارغة"
+
+#~| msgid "Log out"
+#~ msgid "Log Out"
+#~ msgstr "خروج"
+
+#~ msgid "Home"
+#~ msgstr "الرئيسية"

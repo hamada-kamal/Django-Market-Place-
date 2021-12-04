@@ -1,0 +1,29 @@
+{% extends "base_generic.html" %}
+{% load crispy_forms_tags %}
+{% load i18n %}
+
+
+{% block content %}
+<div class="container">
+    <div class="row body-row">
+        {% if LANGUAGE_CODE == 'ar' %}
+        <form style="text-align: right;" method="POST">
+        {% else %}
+        <form method="POST" enctype="multipart/form-data">
+        {% endif %}
+            <h2 style="margin: 30px 0px;">{% trans "Signup" %}</h2>
+            {% csrf_token %}
+            
+            {{form|crispy}}
+            <div class="form-check mb-4">
+                <input class="form-check-input" type="checkbox" value="" onclick="showSignUpConfirmPassword()">
+                <label class="form-check-label pr-3">
+                  {% trans "Show Password" %}
+                </label>
+               </div>
+            <input class="form_btn form-control" type="submit" value="{% trans 'Sign up' %}">
+        </form>
+
+    </div>
+</div>
+{% endblock %}
